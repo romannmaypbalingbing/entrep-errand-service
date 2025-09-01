@@ -9,18 +9,7 @@ import {
   Alert
 } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import { 
-  ArrowLeft, 
-  MapPin, 
-  Phone, 
-  MessageCircle, 
-  Clock,
-  CheckCircle,
-  Package,
-  Receipt,
-  HeadphonesIcon as Headphones,
-  CircleHelp as HelpCircle
-} from 'lucide-react-native';
+import { ArrowLeft, MapPin, Phone, MessageCircle, Clock, CircleCheck as CheckCircle, Package, Receipt, Headphones as Headphones, CircleHelp as HelpCircle } from 'lucide-react-native';
 import { mockErrands, mockRunners, categories } from '@/data/mockData';
 
 export default function TrackOrderScreen() {
