@@ -45,6 +45,8 @@ export default function CustomerHomeScreen() {
                 onPress={() => {
                   if (action.id === 'new-errand') {
                     router.push('/create-errand');
+                  } else if (action.id === 'track') {
+                    router.push('/track-order');
                   }
                 }}
               >
